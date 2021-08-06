@@ -3,7 +3,7 @@
 
 :root {
     /* --primarycolor: #331C0E; */
-    --primarycolor: #BEB8AF;
+    --primarycolor: #60A5FA;
     --fontcolor: #423730;
 
 
@@ -21,6 +21,10 @@
     letter-spacing: 5px;
     text-align: center;
     margin: auto;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px lightslategray;
+    
+    
 }
 
 #textarea1 {
@@ -34,17 +38,19 @@
 }
 
 body{
-    margin: auto;
+    background-size: cover;
+    
     
 }
 #button {
-    background-color: var(--primarycolor);
+    background-color: #1C1917;
+    color: white;
     padding: 0.5rem;
     margin: auto;
     font-family: 'Cinzel Decorative';
     border: none;
-
-
+    position: relative;
+    left: 120px;
 }
 
 #translatedText {
@@ -59,6 +65,8 @@ body{
 
 .footer {
     font-family: 'Cinzel Decorative';
-    margin: auto;
+    font-size: 1rem;
+    margin: 0rem;
     padding: 1rem;
+    background-color: rgba(117, 190, 218, 0.5);
 }
