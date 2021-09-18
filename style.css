@@ -1,77 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
 
-* {
-    box-sizing: border-box;
-}
+
 
 :root {
-    /* --primarycolor: #331C0E; */
-    --primarycolor: #60A5FA;
+    /* --backgroundColor: #331C0E; */
+    --backgroundColor: #b3cde0;
     --fontcolor: #423730;
+    --primaryColor: #6497b1;
+
 
 
 }
 
 
 body {
+    background-color: var(--backgroundColor);
     margin: 0;
     font-family: 'Cinzel Decorative';
 }
 
 .nav {
-
-
+   
     color: var(--fontcolor);
     text-transform: none;
     padding: 0.5rem;
     letter-spacing: 5px;
     text-align: center;
-    margin: auto;
     font-size: 1.5rem;
     text-shadow: 2px 2px lightslategray;
-
 
 }
 
 #textarea1 {
-    width: 50%;
-    margin: 1rem;
-    min-height: 10vh;
+    width: 80%;
+    margin: auto;
+    min-height: 20vh;
     display: block;
-    padding: 1rem;
+    padding: 0.5rem;
     border-style: solid;
-
-
 }
 
 body {
-    
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-
-
+    margin: 0;
 
 }
 
 #button {
+    text-align: center;
+    margin: 0.5rem auto;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    display: flex;
     background-color: #1C1917;
     color: white;
-    padding: 0.5rem;
-    margin: auto;
-    border: none;
-    position: relative;
-    left: 120px;
 }
 
 #translatedText {
     background-color: white;
-    width: 50%;
-    margin: 1rem;
-    padding: 1rem;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
     border-style: inset;
-    min-height: 10vh;
+    min-height: 20vh;
 
 }
 
@@ -81,6 +72,5 @@ body {
     font-size: 1rem;
     width: 100%;
     padding: 1rem;
-    background-color: rgba(117, 190, 218, 0.5);
-
+    background-color: var(--primaryColor);
 }
