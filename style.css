@@ -55,6 +55,12 @@ body {
     color: white;
 }
 
+#tranlateHead{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
 #translatedText {
     background-color: white;
     width: 80%;
